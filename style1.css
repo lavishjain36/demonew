@@ -1,0 +1,323 @@
+.topindex{
+    /* display: flex; */
+    width: auto;
+    height: 10vh;
+    background: linear-gradient(to left,rgb(16, 147, 255), rgb(1, 15, 141));
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+    
+     
+}
+.topindex h3{
+    display: inline-block;
+}
+.heading{
+    display: inline-block;
+    left: 10px;
+    position: relative;
+    top:4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+
+}
+[for="logo"]{
+    font-size: 9px;
+}
+.topindex h3{
+    display: block;
+}
+.insideindex{
+   
+   
+    text-decoration: none;
+     display: inline-block;
+    /* justify-content: start; */
+     margin-left: 1vh;
+     padding-left: 2vh;
+     position: relative;
+   color: aliceblue;
+   /* text-shadow: 9px 7px 20px #000; */
+}
+.insideindex1:hover{
+color:rgb(1,345,67);
+   
+}
+.insideindex1{
+    display: inline-block;
+    font-size: 2vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top:4px; */
+}
+.menu{
+     
+    display: none;
+     align-items: center;
+    position: relative;
+    /* margin-left: -10px; */
+     border-radius: 2px;
+    background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+   
+    
+}
+.menuindex:hover .menu{
+    display:block;
+    position: fixed;
+   
+}
+.menu a{
+    /* display:flex; */
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.menu a:hover{
+    color:rgb(1,345,67);
+    
+}
+.articalmenu {
+    display: none;
+    align-items: center;
+   position: relative;
+   margin-left: -10px;
+    border-radius: 2px;
+   background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+
+}
+.articalindex:hover .articalmenu {
+    position: fixed;
+    display: block;
+}
+.articalmenu a{
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.articalmenu a:hover{
+    color: rgb(1,345,67);
+}
+.todaynews{
+    display: none;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+    
+    border-radius: 2px;
+   background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+
+}
+.todaynewsindex:hover .todaynews{
+    display: block;
+    position: fixed;
+    
+}
+.todaynews a{
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.todaynews a:hover{
+    color: rgb(1,345,67);
+}
+.tool{
+    display: none;
+    align-items: center;
+   position: relative;
+   margin-left: -10px;
+    border-radius: 2px;
+   background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));   
+}
+.toolindex:hover .tool{
+
+    display: block;
+    position: fixed;
+
+ 
+}
+
+.tool a{
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.tool a:hover{
+    color: rgb(1,345,67);
+    
+
+}
+.menu-anchor{
+    display: inline-block;
+}
+
+.bar{
+    padding-left: 10px;
+     /* height: 20px;
+     width: 150px; */
+     padding-bottom: 2px;
+    font-size: 10px;
+    text-align: top ;
+     
+    
+    margin-left:30vh;
+    background: transparent;
+    border-radius: 2px;
+    border-color:rgb(1,345,67);
+    background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+}
+.symbol{
+    display: inline;
+    align-items: center;
+}
+.bar1{
+     height: auto;
+     width: auto;
+     top:3px;
+    /* display: inline-block; */
+    position: relative;
+     align-items: center;
+   /* color: aliceblue; */
+}
+.search{
+    position: absolute;
+    top:2vh;
+   
+    color: rgb(1,345,67)
+
+}
+.search:hover{
+    color:blue
+}
+.artical{
+    overflow: hidden;
+    width: none;
+    height: 230px;
+    background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+}
+.atrical-box{
+    width: inherit;
+    height: inherit;
+    /* overflow: scroll; */
+    
+}
+.history{
+    display:inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    justify-content: end;
+   
+}
+.history:hover{
+    color: rgb(1,345,67);
+}
+.swidonimg{
+    margin-top: 15px;
+    height: 200px;
+    width: auto;
+   display: inline-block;;
+   box-shadow: 2px 3px 2px;
+}
+.atrical-box h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+position: relative;
+ color: rgb(255, 255, 255);
+left:0px;
+
+
+text-align: end;
+margin-right: 10px;
+}
+.artical div li{
+    
+    text-align: space end;
+    display: inline-block;
+    font-size: 10px;
+    position: relative;
+    align-items: flex-end;
+}
+swidon-artical{
+    align-items: flex;
+   justify-content: end;
+   position: relative;
+    display: inline-block;
+top: -210px;
+
+}
+.artical-text{
+    display: inline-block;
+    
+    width: auto;
+    height: 230px;
+    position: relative;
+    margin-left: 280px;
+    top:-210px;
+    justify-content: end;
+/* background-image: linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255)); */
+}
+.historyimg{
+    width: auto;
+    height: 200px;
+    position: relative;
+    /* top: 100px; */
+}
+.row{
+    display: flex;
+    justify-content: left;
+   
+   position: relative;
+    /* border: 5px solid #000; */
+    height: 60px; 
+    /* overflow: scroll; */
+}
+.historyimg1{
+    height: 90px;
+    position: relative;
+    top:4px;
+    left: 3px;
+
+}
+.rowpara{
+    font-size: 9px;
+    position: relative;
+    text-align: start;
+    color: rgb(253, 252, 252);
+    
+
+}
+.col-4{
+    opacity: 80%;
+}
+.col-8{
+    position: relative;
+   left: -20px;
+}
+.bottom-index{
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 70px;
+    width: auto;
+    background: rgb(121, 121, 121);
+}
+.bottom-index h6{
+    display: inline-block;
+    font-size: 8px;
+    color: white;
+    font-style: normal;
+    font-weight: lighter;
+    
+    
+}
